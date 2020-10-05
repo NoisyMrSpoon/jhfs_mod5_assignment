@@ -113,11 +113,11 @@ function buildAndShowHomeHTML (categories) {
       // to look like. For example, a valid call would look something like this:
       // $dc.loadMenuItems('L')
       // Hint: you need to surround the chosen category short name with something before inserting
-      // it into the home html snippet.
+      // it into the home html snippet.s
       //
       // var homeHtmlToInsertIntoMainPage =
       console.log(chosenCategoryShortName);
-      console.log(homeHTML);
+      console.log(homeHtml);
       var homeHtmlToInsertIntoMainPage =
         insertProperty(homeHtml,
                        'randomCategoryShortName',
